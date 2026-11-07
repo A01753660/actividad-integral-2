@@ -1,0 +1,14 @@
+# Artefactos de compilacion
+cmake-build-debug/
+cmake-build-release/
+build/
+*.exe
+*.o
+
+# Configuracion local del IDE
+.idea/
+.vscode/
+
+# Salida generada por el programa (se regenera al ejecutarlo)
+# Ojo: bitacora_ordenada.csv NO va aqui, porque es la entrada del programa
+bitacora_ordenada_ip.csv
